@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Ankita's Dashboard</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: sans-serif;
+      background-color: #f1f8e9; /* very light green */
+      color: #1b5e20;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #2e7d32; /* dark green */
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 40px auto;
+      background-color: #dcedc8; /* light green */
+      padding: 30px;
+      border-radius: 8px;
+    }
+
+    h1, h2 {
+      color: #1b5e20;
+    }
+
+    p {
+      font-size: 16px;
+    }
+
+    .buttons {
+      display: flex;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin-top: 20px;
+    }
+
+    .btn {
+      background-color: #43a047; /* medium green */
+      color: white;
+      text-decoration: none;
+      padding: 12px 24px;
+      border-radius: 4px;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #2e7d32;
+    }
+
+    .back-btn {
+      display: inline-block;
+      margin-top: 20px;
+    }
+
+    section {
+      margin-bottom: 80px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Student Details</h1>
+  </header>
+
+  <section id="dashboard" class="container">
+    <h2>Student Details</h2>
+    <p><strong>Name:</strong> Ankita</p>
+    <p><strong>Registration No:</strong> 12213101</p>
+    <p><strong>Roll No:</strong> 32</p>
+    <p><strong>Section:</strong> 007</p>
+    <p><strong>Course:</strong> Cloud</p>
+
+    <h2>Tasks</h2>
+    <div class="buttons">
+      <a href="#task1" class="btn">Task 1</a>
+      <a href="#task2" class="btn">Task 2</a>
+      <a href="#task3" class="btn">Task 3</a>
+      <a href="#task4" class="btn">Task 4</a>
+    </div>
+  </section>
+
+  <section id="task1" class="container">
+    <h2>Task 1</h2>
+    <p>1.Write the code with correct access key and secret key.</p>
+     <img src="11.png" alt="Screenshot for Task 1" style="max-width: 100%; height: auto; border-radius: 8px; margin-top: 20px;">
+     <p>2. Save the code and in terminal run terraform commands (terraform init, validate, plan)</p>
+     <img src="12.png" alt="Screenshot for Task 1" style="max-width: 100%; height: auto; border-radius: 8px; margin-top: 20px;">
+     <p>3. run terraform apply. </p>
+     <img src="13.png" alt="Screenshot for Task 1" style="max-width: 100%; height: auto; border-radius: 8px; margin-top: 20px;">
+     <img src="14.png" alt="Screenshot for Task 1" style="max-width: 100%; height: auto; border-radius: 8px; margin-top: 20px;">
+     <p>4. check in aws if instance was create or not ,then run terraform destroy.</p>
+     <img src="15.png" alt="Screenshot for Task 1" style="max-width: 100%; height: auto; border-radius: 8px; margin-top: 20px;">
+
+    <a href="#dashboard" class="btn back-btn">← Back to Student Details</a>
+  </section>
+
+  <section id="task2" class="container">
+    <h2>Task 2</h2>
+    <p>Here you can add screenshots or content for Task 2.</p>
+    <a href="#dashboard" class="btn back-btn">← Back to Student Details</a>
+  </section>
+
+  <section id="task3" class="container">
+    <h2>Task 3</h2>
+    <p>Here you can add screenshots or content for Task 3.</p>
+    <a href="#dashboard" class="btn back-btn">← Back to Student Details</a>
+  </section>
+
+  <section id="task4" class="container">
+    <h2>Task 4</h2>
+    <p>Here you can add screenshots or content for Task 4.</p>
+    <a href="#dashboard" class="btn back-btn">← Back to Student Details</a>
+  </section>
+</body>
+</html>
